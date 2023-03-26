@@ -30,7 +30,7 @@ func NewLogger(p string) *Logger {
 func (l *Logger) Debug(v ...interface{}) {
 	l.debug.Println(v...)
 }
-func (l *Logger) INFO(v ...interface{}) {
+func (l *Logger) Info(v ...interface{}) {
 	l.info.Println(v...)
 }
 func (l *Logger) Warning(v ...interface{}) {
