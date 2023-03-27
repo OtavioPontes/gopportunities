@@ -10,6 +10,11 @@ Nesse Projeto, é possível listar todas as vagas (oppotunities), mostrar uma va
 - Gorm (ORM feito para Go)
 - Swaggo (Swagger para Go)
 
+## Acessar em Produção 🌐
+```
+https://www.gopportunities.otaviopontes.com
+```
+
 ## Como rodar o projeto
 - Baixe-o
 - Na pasta que o contém, rode os seguintes comandos:
@@ -18,9 +23,9 @@ go mod tidy
 go run main.go
 ```
 
-## Documentação
+## Documentação 📖
 
 A documentação do CRUD foi feita com o Swagger, para acessá-la basta acessar o endpoint **/swagger/index.html**:
 ```
-https://localhost:8080/swagger/index.html
+https://www.gopportunities.otaviopontes.com/swagger/index.html
 ```
