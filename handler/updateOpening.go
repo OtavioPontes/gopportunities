@@ -15,6 +15,7 @@ import (
 // @Accept json
 // @Produce json
 // @Param id query string true "Opening identification"
+// @Param request body UpdateOpeningRequest true "Opening data to Update"
 // @Success 200 {object} UpdateOpeningResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 404 {object} ErrorResponse
